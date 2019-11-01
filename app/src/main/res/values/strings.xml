@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Tennis News</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_most_recent_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_magnitude_label">Relevance</string>
+    <string name="settings_order_by_relevence_value" translatable="false">relevance</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">newest</string>
+    <string name="error_closing_input">Error closing input stream</string>
+    <string name="error_with_creating_url">Error with creating URL</string>
+    <string name="get_methode">GET</string>
+    <string name="error_response_codee">Error response code:</string>
+    <string name="problem_retrieving_json">Problem retrieving the news JSON results.</string>
+    <string name="utf_8">UTF-8</string>
+    <string name="response">response</string>
+    <string name="results">results</string>
+    <string name="title">webTitle</string>
+    <string name="section">sectionName</string>
+    <string name="date">webPublicationDate</string>
+    <string name="web_url">webUrl</string>
+    <string name="problem_parsing_json_response">problem parsing json response</string>
+    <string name="guardian_main_url_">https://content.guardianapis.com/search</string>
+    <string name="no_network_c">No network connection</string>
+    <string name="q_">q</string>
+    <string name="tennis">tennis</string>
+    <string name="order_by">order-by</string>
+    <string name="api_key">api-key</string>
+    <string name="test">test</string>
+    <string name="no_tennis_news">No Tennis News Available</string>
+    <string name="t">T</string>
+
+
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_magnitude_label</item>
+        <item>@string/settings_order_by_most_recent_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_relevence_value</item>
+        <item>@string/settings_order_by_most_recent_value</item>
+    </string-array>
+
+
+</resources>
